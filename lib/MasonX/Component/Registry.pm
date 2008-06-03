@@ -75,7 +75,7 @@ sub install_component {
         $self->unregister_component($component);
     };
 
-    die if $@;
+    #TODO: better error handling
 
     $self->register_component($component, $attrs);
 

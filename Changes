@@ -1,0 +1,26 @@
+0.01_01    Tue Jun 3 02:45:47 2008 +0200
+    Florian Ragwitz (24):
+          Initial checkin.
+          Generate MANIFEST from MANIFEST.SKIP.
+          Add .gitignore.
+          Fix 00load.t.
+          More docs.
+          Add explict return.
+          Make perlcritic.t pass.
+          Make the M::I helper work.
+          Make the example work.
+          Be smarter about handling ::Interp params.
+          More interp tests.
+          Add a TODO.
+          Use spaces.
+          Add some basic documentation.
+          POD improvements.
+          Don't use version.pm.
+          Make install_component fail if unregistering fails.
+          Set correct version for the MI extension.
+          Don't recommend testing requirements.
+          Add requires field to META.yml.
+          Use MI::ExtraTests and move author tests to the right place.
+          Makefile.PL typo fix.
+          Run the pod and critic checks during disttest.
+          Add a Makefile target to generate Changes.

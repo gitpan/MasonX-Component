@@ -18,7 +18,7 @@ no_index:
 provides:
   MasonX::Component:
     file: lib/MasonX/Component.pm
-    version: 0.01_01
+    version: 0.01_02
   MasonX::Component::Interp:
     file: lib/MasonX/Component/Interp.pm
   MasonX::Component::Registry:
@@ -45,4 +45,4 @@ requires:
   IO::File: 0
   Scalar::Util: 0
   Test::More: 0
-version: 0.01_01
+version: 0.01_02
