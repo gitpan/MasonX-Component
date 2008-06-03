@@ -1,0 +1,11 @@
+1. install test component:
+
+cd MasonX-Component-Test
+perl Makefile.PL
+make
+make install
+
+
+2. run an example using the test component:
+
+perl test.pl

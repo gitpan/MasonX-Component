@@ -1,0 +1,7 @@
+<%args>
+$foo
+</%args>
+
+<&|/_component/test, foo => $foo &>
+moo
+</&>

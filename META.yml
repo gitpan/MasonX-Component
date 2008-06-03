@@ -1,0 +1,48 @@
+---
+abstract: 'manage mason components'
+author:
+  - 'Florian Ragwitz  C<< <rafl@debian.org> >>'
+distribution_type: module
+generated_by: 'Module::Install version 0.74'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.3.html
+  version: 1.3
+name: MasonX-Component
+no_index:
+  directory:
+    - inc
+    - t
+    - examples
+    - examples
+provides:
+  MasonX::Component:
+    file: lib/MasonX/Component.pm
+    version: 0.01_01
+  MasonX::Component::Interp:
+    file: lib/MasonX/Component/Interp.pm
+  MasonX::Component::Registry:
+    file: lib/MasonX/Component/Registry.pm
+  MasonX::Component::Registry::Reader:
+    file: lib/MasonX/Component/Registry/Reader.pm
+  MasonX::Component::Registry::Writer:
+    file: lib/MasonX/Component/Registry/Writer.pm
+  Module::Install::MasonXComponent:
+    file: lib/Module/Install/MasonXComponent.pm
+    version: 0.01
+requires:
+  Carp: 0
+  Class::Inspector: 0
+  Clone: 0
+  Config::INI::Reader: 0
+  Config::INI::Writer: 0
+  File::Path: 0
+  File::ShareDir: 0
+  File::Spec::Functions: 0
+  HTML::Mason: 0
+  Hash::Merge: 0
+  IO::Dir: 0
+  IO::File: 0
+  Scalar::Util: 0
+  Test::More: 0
+version: 0.01_01

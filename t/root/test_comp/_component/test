@@ -1,0 +1,9 @@
+<%args>
+$foo
+</%args>
+
+<%init>
+my $text = join ($foo, split //, $m->content);
+</%init>
+
+<% $text %>

@@ -1,0 +1,9 @@
+^\.git
+\bblib\b
+\bpm_to_blib$
+^cover_db\b
+^MANIFEST.bak$
+^MasonX-Component-
+^examples\b.*\binc\b
+^examples\b.*\bMETA.yml$
+\bMakefile$
